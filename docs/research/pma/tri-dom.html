@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="fr" class=""><head><style data-rc-order="prependQueue" data-rc-priority="-999" data-css-hash="2065ty" data-token-hash="1v3bg9e">a:where(.css-vrrzze){color:#1677ff;text-decoration:none;background-color:transparent;outline:none;cursor:pointer;transition:color 0.3s;-webkit-text-decoration-skip:objects;}a:where(.css-vrrzze):hover{color:#69b1ff;}a:where(.css-vrrzze):active{color:#0958d9;}a:where(.css-vrrzze):active,a:where(.css-vrrzze):hover{text-decoration:none;outline:0;}a:where(.css-vrrzze):focus{text-decoration:none;outline:0;}a:where(.css-vrrzze)[disabled]{color:rgba(0,0,0,0.25);cursor:not-allowed;}:where(.css-vrrzze) a{color:#1677ff;text-decoration:none;background-color:transparent;outline:none;cursor:pointer;transition:color 0.3s;-webkit-text-decoration-skip:objects;}:where(.css-vrrzze) a:hover{color:#69b1ff;}:where(.css-vrrzze) a:active{color:#0958d9;}:where(.css-vrrzze) a:active,:where(.css-vrrzze) a:hover{text-decoration:none;outline:0;}:where(.css-vrrzze) a:focus{text-decoration:none;outline:0;}:where(.css-vrrzze) a[disabled]{color:rgba(0,0,0,0.25);cursor:not-allowed;}:where(.css-vrrzze).anticon{display:inline-flex;align-items:center;color:inherit;font-style:normal;line-height:0;text-align:center;text-transform:none;vertical-align:-0.125em;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}:where(.css-vrrzze).anticon >*{line-height:1;}:where(.css-vrrzze).anticon svg{display:inline-block;}:where(.css-vrrzze).anticon .anticon .anticon-icon{display:block;}</style><style data-rc-order="prependQueue" data-rc-priority="-999" data-css-hash="edavq0" data-token-hash="1v3bg9e">:where(.css-vrrzze).ant-spin{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-size:14px;box-sizing:border-box;}:where(.css-vrrzze).ant-spin::before,:where(.css-vrrzze).ant-spin::after{box-sizing:border-box;}:where(.css-vrrzze).ant-spin [class^="ant-spin"],:where(.css-vrrzze).ant-spin [class*=" ant-spin"]{box-sizing:border-box;}:where(.css-vrrzze).ant-spin [class^="ant-spin"]::before,:where(.css-vrrzze).ant-spin [class*=" ant-spin"]::before,:where(.css-vrrzze).ant-spin [class^="ant-spin"]::after,:where(.css-vrrzze).ant-spin [class*=" ant-spin"]::after{box-sizing:border-box;}:where(.css-vrrzze).ant-spin{box-sizing:border-box;margin:0;padding:0;color:#1677ff;font-size:0;line-height:1.5714285714285714;list-style:none;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';position:absolute;display:none;text-align:center;vertical-align:middle;opacity:0;transition:transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);}:where(.css-vrrzze).ant-spin-spinning{position:relative;display:inline-block;opacity:1;}:where(.css-vrrzze).ant-spin .ant-spin-text{font-size:14px;padding-top:5px;}:where(.css-vrrzze).ant-spin-fullscreen{position:fixed;width:100vw;height:100vh;background-color:rgba(0,0,0,0.45);z-index:1000;inset:0;display:flex;align-items:center;flex-direction:column;justify-content:center;opacity:0;visibility:hidden;transition:all 0.2s;}:where(.css-vrrzze).ant-spin-fullscreen-show{opacity:1;visibility:visible;}:where(.css-vrrzze).ant-spin-fullscreen .ant-spin .ant-spin-dot-holder{color:#fff;}:where(.css-vrrzze).ant-spin-fullscreen .ant-spin .ant-spin-text{color:#fff;}:where(.css-vrrzze).ant-spin-nested-loading{position:relative;}:where(.css-vrrzze).ant-spin-nested-loading >div>.ant-spin{position:absolute;top:0;inset-inline-start:0;z-index:4;display:block;width:100%;height:100%;max-height:400px;}:where(.css-vrrzze).ant-spin-nested-loading >div>.ant-spin .ant-spin-dot{position:absolute;top:50%;inset-inline-start:50%;margin:-10px;}:where(.css-vrrzze).ant-spin-nested-loading >div>.ant-spin .ant-spin-text{position:absolute;top:50%;width:100%;text-shadow:0 1px 2px #ffffff;}:where(.css-vrrzze).ant-spin-nested-loading >div>.ant-spin.ant-spin-show-text .ant-spin-dot{margin-top:-20px;}:where(.css-vrrzze).ant-spin-nested-loading >div>.ant-spin-sm .ant-spin-dot{margin:-7px;}:where(.css-vrrzze).ant-spin-nested-loading >div>.ant-spin-sm .ant-spin-text{padding-top:2px;}:where(.css-vrrzze).ant-spin-nested-loading >div>.ant-spin-sm.ant-spin-show-text .ant-spin-dot{margin-top:-17px;}:where(.css-vrrzze).ant-spin-nested-loading >div>.ant-spin-lg .ant-spin-dot{margin:-16px;}:where(.css-vrrzze).ant-spin-nested-loading >div>.ant-spin-lg .ant-spin-text{padding-top:11px;}:where(.css-vrrzze).ant-spin-nested-loading >div>.ant-spin-lg.ant-spin-show-text .ant-spin-dot{margin-top:-26px;}:where(.css-vrrzze).ant-spin-nested-loading .ant-spin-container{position:relative;transition:opacity 0.3s;}:where(.css-vrrzze).ant-spin-nested-loading .ant-spin-container::after{position:absolute;top:0;inset-inline-end:0;bottom:0;inset-inline-start:0;z-index:10;width:100%;height:100%;background:#ffffff;opacity:0;transition:all 0.3s;content:"";pointer-events:none;}:where(.css-vrrzze).ant-spin-nested-loading .ant-spin-blur{clear:both;opacity:0.5;user-select:none;pointer-events:none;}:where(.css-vrrzze).ant-spin-nested-loading .ant-spin-blur::after{opacity:0.4;pointer-events:auto;}:where(.css-vrrzze).ant-spin-tip{color:rgba(0,0,0,0.45);}:where(.css-vrrzze).ant-spin .ant-spin-dot-holder{width:1em;height:1em;font-size:20px;display:inline-block;transition:transform 0.3s ease,opacity 0.3s ease;transform-origin:50% 50%;line-height:1;color:#1677ff;}:where(.css-vrrzze).ant-spin .ant-spin-dot-holder-hidden{transform:scale(0.3);opacity:0;}:where(.css-vrrzze).ant-spin .ant-spin-dot-progress{position:absolute;inset:0;}:where(.css-vrrzze).ant-spin .ant-spin-dot{position:relative;display:inline-block;font-size:20px;width:1em;height:1em;}:where(.css-vrrzze).ant-spin .ant-spin-dot-item{position:absolute;display:block;width:9px;height:9px;background:currentColor;border-radius:100%;transform:scale(0.75);transform-origin:50% 50%;opacity:0.3;animation-name:css-vrrzze-antSpinMove;animation-duration:1s;animation-iteration-count:infinite;animation-timing-function:linear;animation-direction:alternate;}:where(.css-vrrzze).ant-spin .ant-spin-dot-item:nth-child(1){top:0;inset-inline-start:0;animation-delay:0s;}:where(.css-vrrzze).ant-spin .ant-spin-dot-item:nth-child(2){top:0;inset-inline-end:0;animation-delay:0.4s;}:where(.css-vrrzze).ant-spin .ant-spin-dot-item:nth-child(3){inset-inline-end:0;bottom:0;animation-delay:0.8s;}:where(.css-vrrzze).ant-spin .ant-spin-dot-item:nth-child(4){bottom:0;inset-inline-start:0;animation-delay:1.2s;}:where(.css-vrrzze).ant-spin .ant-spin-dot-spin{transform:rotate(45deg);animation-name:css-vrrzze-antRotate;animation-duration:1.2s;animation-iteration-count:infinite;animation-timing-function:linear;}:where(.css-vrrzze).ant-spin .ant-spin-dot-circle{stroke-linecap:round;transition:stroke-dashoffset 0.3s ease,stroke-dasharray 0.3s ease,stroke 0.3s ease,stroke-width 0.3s ease,opacity 0.3s ease;fill-opacity:0;stroke:currentcolor;}:where(.css-vrrzze).ant-spin .ant-spin-dot-circle-bg{stroke:rgba(0,0,0,0.06);}:where(.css-vrrzze).ant-spin-sm .ant-spin-dot,:where(.css-vrrzze).ant-spin-sm .ant-spin-dot-holder{font-size:14px;}:where(.css-vrrzze).ant-spin-sm .ant-spin-dot-holder i{width:6px;height:6px;}:where(.css-vrrzze).ant-spin-lg .ant-spin-dot,:where(.css-vrrzze).ant-spin-lg .ant-spin-dot-holder{font-size:32px;}:where(.css-vrrzze).ant-spin-lg .ant-spin-dot-holder i{width:14px;height:14px;}:where(.css-vrrzze).ant-spin.ant-spin-show-text .ant-spin-text{display:block;}</style><style data-rc-order="prependQueue" data-rc-priority="-999" data-css-hash="_effect-css-vrrzze-antSpinMove">@keyframes css-vrrzze-antSpinMove{to{opacity:1;}}</style><style data-rc-order="prependQueue" data-rc-priority="-999" data-css-hash="_effect-css-vrrzze-antRotate">@keyframes css-vrrzze-antRotate{to{transform:rotate(405deg);}}</style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale = 1, minimum-scale = 1, maximum-scale = 1, width=device-width"><title>Machines de tri optique à Orléans | Appelez notre équipe</title>
+            <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/vendor/Adipoli/css/adipoli.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/vendor/fancybox/source/jquery.fancybox.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/sonatacore/vendor/components-font-awesome/css/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/css/effects.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/css/cookie.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+            <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/vendor/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="all">
+            <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolmenu/css/horizontal.css" type="text/css" media="all">
+            <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolmenu/css/creative-link-effect/init.css" type="text/css" media="all">
+            <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolmenu/css/creative-link-effect/init.css" type="text/css" media="all">
+            <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolshortcut/css/goTop.css" type="text/css" media="all">
+            <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolmenu/css/creative-link-effect/3.css" type="text/css" media="all">
+            <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolmenu/css/creative-link-effect/3.css" type="text/css" media="all">
+    
+    <link rel="stylesheet" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/animations.css?1766395446" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/1199205.css?1766395446" type="text/css" media="all">
+
+                <script id="spcloader" type="text/javascript" async="" src="https://sdk.privacy-center.org/45346846-f90a-4147-be2f-e2867aabebb1/loader.js?target=www.pma-concept.fr" charset="utf-8"></script><script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "PMA CONCEPT",
+                "url": "pma-concept.fr",
+                                "telephone": "+33673081794",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "14 rue du devidet, 45000 ORLÉANS",
+                    "addressLocality": "ORLÉANS",
+                    "postalCode": "45000",
+                    "addressCountry": "France"
+                }
+            }
+        </script>
+                        <link rel="icon" type="image/x-icon" href="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/favicon/favicon_localfr.ico">
+                        <meta http-equiv="content-language" content="fr">
+        
+                        <meta name="description" content="Parcourez nos machines de tri optique pour céréales, granulés et coques à Orléans. Contactez-nous pour bénéficier de plus d’informations.">
+                                        <meta name="google-site-verification" content="66RFUSXcdA9w4jwcoQLKjPJirqPHX5UKBGopbFQulJ8">
+
+            <link href="https://www.pma-concept.fr/tri-optique" rel="canonical"><meta name="robots" content="index, follow"><script type="text/javascript" src="//tag.aticdn.net/piano-analytics.js"></script>
+<style type="text/css">.fancybox-margin{margin-right:15px;}</style><script type="text/javascript" async="" src="https://sdk.privacy-center.org/sdk/3b3883e0a9f2a51be38847382cc183d99d325316/modern/sdk.3b3883e0a9f2a51be38847382cc183d99d325316.js" charset="utf-8"></script><style type="text/css">.rfm-marquee-container {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: var(--width);
+  transform: var(--transform);
+}
+.rfm-marquee-container:hover div {
+  animation-play-state: var(--pause-on-hover);
+}
+.rfm-marquee-container:active div {
+  animation-play-state: var(--pause-on-click);
+}
+
+.rfm-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.rfm-overlay::before, .rfm-overlay::after {
+  background: linear-gradient(to right, var(--gradient-color), rgba(255, 255, 255, 0));
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: var(--gradient-width);
+  z-index: 2;
+  pointer-events: none;
+  touch-action: none;
+}
+.rfm-overlay::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.rfm-overlay::before {
+  left: 0;
+  top: 0;
+}
+
+.rfm-marquee {
+  flex: 0 0 auto;
+  min-width: var(--min-width);
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: scroll var(--duration) linear var(--delay) var(--iteration-count);
+  animation-play-state: var(--play);
+  animation-delay: var(--delay);
+  animation-direction: var(--direction);
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.rfm-initial-child-container {
+  flex: 0 0 auto;
+  display: flex;
+  min-width: auto;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rfm-child {
+  transform: var(--transform);
+}</style><style type="text/css">.styles-module_floatingWhatsapp__yWF5K {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.styles-module_whatsappButton__tVits {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  background-color: #25d366;
+  border-radius: 50%;
+  -webkit-user-select: none;
+          user-select: none;
+  box-shadow: 0px 4px 10px 0px rgb(0 0 0 / 15%);
+  z-index: 9998;
+}
+
+.styles-module_whatsappButton__tVits:after {
+  content: '';
+  border-color: inherit;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 0 0 0 rgba(37, 211, 101, 0);
+  animation: styles-module__pulse__BJkE8 1.2s infinite;
+}
+
+.styles-module_whatsappButton__tVits svg {
+  fill: #fff;
+  padding: 0.5rem;
+  width: 55px;
+  height: 55px;
+}
+
+.styles-module_whatsappChatBox__MdQ5U {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: #fff;
+  touch-action: auto;
+  position: fixed;
+  bottom: 7rem;
+  right: 4rem;
+  width: 375px;
+  opacity: 0;
+  transition: height 0.2s ease-out;
+  box-shadow: 0 3px 10px 0 rgb(0 0 0 / 20%);
+  z-index: 9999;
+}
+
+@media (max-width: 575px) {
+  .styles-module_whatsappChatBox__MdQ5U {
+    right: 0;
+    left: 0;
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+.styles-module_whatsappChatBox__MdQ5U.styles-module_open__R8NqR {
+  animation: styles-module__bounceIn__Ry9iZ 0.4s both;
+}
+
+.styles-module_whatsappChatBox__MdQ5U.styles-module_close__RLouK {
+  animation: styles-module__bounceOut__d5QVu 0.4s both;
+}
+
+.styles-module_chatHeader__gaeOA {
+  background-color: #075e54;
+  display: grid;
+  align-items: center;
+  padding: 0.25rem;
+  grid-template-columns: 20% 60% 1fr;
+  gap: 1%;
+}
+
+.styles-module_chatHeader__gaeOA .styles-module_avatar__afcc4 {
+  padding: 0.25rem;
+  position: relative;
+}
+
+.styles-module_chatHeader__gaeOA .styles-module_avatar__afcc4 img {
+  vertical-align: middle;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.473);
+}
+
+.styles-module_chatHeader__gaeOA .styles-module_avatar__afcc4:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #4fbe86;
+  border: 1px solid #fff;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 5px;
+  right: 8px;
+}
+
+.styles-module_chatHeader__gaeOA .styles-module_avatar__afcc4 svg {
+  fill: #fff;
+  vertical-align: middle;
+}
+
+.styles-module_chatHeader__gaeOA .styles-module_status__-ln3V {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.styles-module_chatHeader__gaeOA .styles-module_statusTitle__NgfPQ {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.styles-module_chatHeader__gaeOA .styles-module_statusSubtitle__esavW {
+  font-size: 0.8rem;
+  color: #f0f0f0;
+}
+
+.styles-module_chatHeader__gaeOA .styles-module_close__RLouK {
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.styles-module_chatHeader__gaeOA .styles-module_close__RLouK svg {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+}
+
+.styles-module_chatBody__VBxQH {
+  padding: 20px;
+  background-size: cover;
+  background-repeat: repeat;
+  max-height: 382px;
+  background-color: #eae6df;
+  height: 100%;
+  opacity: 0.9;
+}
+
+.styles-module_chatBubble__F6k84 {
+  background-color: #e6f8f1;
+  padding: 16px 28px;
+  border-radius: 20px;
+  border-bottom-left-radius: 2px;
+  display: inline-block;
+}
+
+.styles-module_typing__Ru9xZ {
+  align-items: center;
+  display: flex;
+  height: 17px;
+}
+
+.styles-module_typing__Ru9xZ .styles-module_dot__RoVT7 {
+  animation: styles-module_typingAnimation__fErT4 1.8s infinite ease-in-out;
+  background-color: rgba(20, 105, 69, 0.7);
+  border-radius: 50%;
+  height: 7px;
+  margin-right: 4px;
+  vertical-align: middle;
+  width: 7px;
+  display: inline-block;
+}
+
+.styles-module_typing__Ru9xZ .styles-module_dot__RoVT7:nth-child(1) {
+  animation-delay: 200ms;
+}
+
+.styles-module_typing__Ru9xZ .styles-module_dot__RoVT7:nth-child(2) {
+  animation-delay: 300ms;
+}
+
+.styles-module_typing__Ru9xZ .styles-module_dot__RoVT7:nth-child(3) {
+  animation-delay: 400ms;
+}
+
+.styles-module_typing__Ru9xZ .styles-module_dot__RoVT7:last-child {
+  margin-right: 0;
+}
+
+.styles-module_chatBody__VBxQH .styles-module_message__Z9MOV {
+  padding: 7px 14px 6px;
+  background-color: #fff;
+  border-radius: 0px 8px 8px;
+  position: relative;
+  max-width: calc(100% - 120px);
+  z-index: 2;
+  box-shadow: rgb(0 0 0 / 13%) 0px 1px 0.5px;
+}
+
+.styles-module_chatBody__VBxQH .styles-module_accountName__20AXD {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  color: rgb(17 17 17 / 50%);
+}
+
+.styles-module_chatBody__VBxQH .styles-module_messageBody__9-hwo {
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 4px;
+  color: #111111;
+  white-space: pre-wrap;
+}
+
+.styles-module_chatBody__VBxQH .styles-module_message__Z9MOV .styles-module_triangle__K9ViC {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  border-color: transparent #fff transparent transparent;
+  position: absolute;
+  left: -10px;
+  top: 0;
+}
+
+.styles-module_chatBody__VBxQH .styles-module_messageTime__MIwoR {
+  display: flex;
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(17 17 17 / 50%);
+  justify-content: flex-end;
+}
+
+.styles-module_chatFooter__TGv0P {
+  padding: 0.25rem;
+  background-color: #f0f0f0;
+}
+
+.styles-module_chatFooter__TGv0P form {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 85% 15%;
+  padding: 0.25rem;
+}
+
+.styles-module_chatFooter__TGv0P form .styles-module_input__WFb9L {
+  border-radius: 20px;
+  padding: 0 10px;
+  border: none;
+  background-color: #fefefe;
+  min-height: 45px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.styles-module_chatFooter__TGv0P form .styles-module_input__WFb9L:focus {
+  border-color: #075e54;
+  outline: 0;
+  box-shadow: 0 0 0 1px rgb(7 94 84 / 50%);
+}
+
+.styles-module_chatFooter__TGv0P form .styles-module_input__WFb9L::placeholder {
+  color: #949494;
+}
+
+.styles-module_chatFooter__TGv0P form .styles-module_buttonSend__kXjja {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.styles-module_chatFooter__TGv0P form .styles-module_buttonSend__kXjja svg {
+  vertical-align: middle;
+  fill: #919191;
+}
+
+.styles-module_chatFooter__TGv0P form .styles-module_buttonSend__kXjja:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* dark mode */
+.styles-module_dark__iZs3I .styles-module_chatBody__VBxQH {
+  background-color: #0d1418;
+}
+
+.styles-module_dark__iZs3I .styles-module_chatBody__VBxQH .styles-module_message__Z9MOV {
+  background-color: #056162;
+  box-shadow: rgb(0 0 0 / 70%) 0px 1px 0.5px;
+}
+
+.styles-module_dark__iZs3I .styles-module_chatBody__VBxQH .styles-module_accountName__20AXD {
+  color: rgb(255 255 255 / 50%);
+}
+
+.styles-module_dark__iZs3I .styles-module_chatBody__VBxQH .styles-module_messageBody__9-hwo {
+  color: rgb(241 241 242 / 90%);
+}
+
+.styles-module_dark__iZs3I .styles-module_chatBody__VBxQH .styles-module_message__Z9MOV .styles-module_triangle__K9ViC {
+  border-color: transparent #056162 transparent transparent;
+}
+
+.styles-module_dark__iZs3I .styles-module_chatBody__VBxQH .styles-module_messageTime__MIwoR {
+  color: rgb(255 255 255 / 50%);
+}
+
+.styles-module_dark__iZs3I .styles-module_chatFooter__TGv0P {
+  background-color: #1e2428;
+}
+
+.styles-module_dark__iZs3I .styles-module_chatFooter__TGv0P form .styles-module_input__WFb9L {
+  background-color: #33383b;
+  color: #f1f1f2;
+}
+
+.styles-module_dark__iZs3I .styles-module_chatFooter__TGv0P form .styles-module_input__WFb9L:focus {
+  border-color: #0da896;
+  outline: 0;
+  box-shadow: 0 0 0 1px rgb(13 168 150 / 50%);
+}
+
+.styles-module_dark__iZs3I .styles-module_chatFooter__TGv0P form .styles-module_buttonSend__kXjja svg {
+  fill: rgb(104, 104, 104);
+}
+
+.styles-module_dark__iZs3I .styles-module_chatBubble__F6k84 {
+  background-color: #32373a;
+}
+
+.styles-module_dark__iZs3I .styles-module_typing__Ru9xZ .styles-module_dot__RoVT7 {
+  background-color: rgba(46, 148, 106, 0.7);
+}
+
+/* keyframes */
+@keyframes styles-module__pulse__BJkE8 {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 101, 0.75);
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 101, 0);
+  }
+}
+
+@keyframes styles-module__bounceIn__Ry9iZ {
+  0% {
+    opacity: 0;
+    transform: scale(0, 0);
+    transform-origin: bottom right;
+  }
+
+  50% {
+    transform: scale(1.03, 1.03);
+    transform-origin: bottom right;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+    transform-origin: bottom right;
+  }
+}
+
+@keyframes styles-module__bounceOut__d5QVu {
+  0% {
+    opacity: 1;
+    height: scale(1, 1);
+    transform-origin: bottom right;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0, 0);
+    transform-origin: bottom right;
+  }
+}
+
+@keyframes styles-module_typingAnimation__fErT4 {
+  0% {
+    transform: translateY(0px);
+    background-color: rgba(20, 105, 69, 0.7);
+  }
+  28% {
+    transform: translateY(-7px);
+    background-color: rgba(20, 105, 69, 0.4);
+  }
+  44% {
+    transform: translateY(0px);
+    background-color: rgba(20, 105, 69, 0.2);
+  }
+}
+
+.styles-module_notificationIndicator__gVmjV {
+  display: flex;
+  flex-flow: row wrap;
+  place-content: center;
+  align-items: center;
+  position: absolute;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 0.75rem;
+  min-width: 20px;
+  line-height: 1;
+  padding: 0px 6px;
+  height: 20px;
+  border-radius: 10px;
+  z-index: 1;
+  transition: transform 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: rgb(235, 0, 20);
+  color: rgb(255, 255, 255);
+  top: 0;
+  right: 10px;
+  transform: scale(1) translate(50%, -50%);
+  transform-origin: 100% 0%;
+}
+</style></head>
+    <body><div id="didomi-host" class="didomi-host" data-nosnippet="true" aria-hidden="true" lang="fr" data-lang-dir="ltr"></div><iframe name="__tcfapiLocator" title="__tcfapiLocator" style="display: none;"></iframe>
+            <div id="main-frame">
+        <main class="col-md-12 wt-container-16374708" id="wt-container-instance-70630468">
+<header class="col-md-12 container-instance hidden-sm hidden-xs wt-container-16724206" id="wt-container-instance-73002424">
+<article class="container-instance col-md-2 hidden-sm hidden-xs wt-container-16374746" id="wt-container-instance-70752124">
+<a class="inherit-links" href="https://webtool.local.fr/pma-concept.com/"><img alt="PMA Concept " loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Logo2%20PMA%20Concept%20Machines%20industrielles%20automatis%C3%A9es%20%C3%A0%20Orl%C3%A9ans.webp" style="max-width: 245px; width: 100%;"></a>
+</article>
+<div class="container-instance col-md-8 wt-container-16390333" id="wt-container-instance-70752125">
+
+                                    <nav id="menu-block-configuration-438674" class="menu horizontal cl-effect cl-effect-3">
+        <input type="checkbox" id="menu-438674">
+        <ul>
+            <li class="menu-mobile">
+                <label for="menu-438674" class="">
+                    <span class="menu-switch">
+                        <span class="icon icon-open-menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M18 8H8" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+          <rect x="4" y="7" width="2" height="2" fill="currentColor"></rect>
+          <path d="M18 12H8" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+          <rect x="4" y="11" width="2" height="2" fill="currentColor"></rect>
+          <path d="M18 16H8" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+          <rect x="4" y="15" width="2" height="2" fill="currentColor"></rect>
+          </svg></span>
+                        <span class="icon icon-close-menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg></span>
+                        <span data-hover="Menu" class="open-menu-label">MENU</span>
+                        <span data-hover="Menu" class="close-menu-label">FERMER</span>
+                    </span>
+                </label>
+                        
+    <ul class="root">
+                                            <li class="  show-divider first-li">
+                    <a href="/" target="" class="page-name  ">
+                        <span data-hover="Accueil" class="menu-item-label">Accueil</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  show-divider">
+                    <a href="/ensacheuses" target="" class="page-name   with-children">
+                        <span data-hover="Ensacheuses" class="menu-item-label">Ensacheuses</span>
+
+                                                    <span class="page-indicator-svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" fill="none"></path>
+          </svg></span>
+                                            </a>
+                                            <input type="checkbox" id="page-438654-1199202">
+                        <label for="page-438654-1199202" class="">
+                            <span class="menu-switch">
+                                <span class="icon icon-open-menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+          </svg></span>
+                            </span>
+                        </label>
+                                
+    <ul class="branch">
+                                            <li class="  first-li">
+                    <a href="/ensacheuse-verticale" target="_self" class="page-name  ">
+                        <span data-hover="Ensacheuse verticale" class="menu-item-label">Ensacheuse verticale</span>
+
+                                            </a>
+                                    </li>
+                                            <li class=" ">
+                    <a href="/ensacheuse-pour-sachets-preformes-et-gueule-ouverte" target="_self" class="page-name  ">
+                        <span data-hover="Ensacheuse pour sachets préformés et gueule ouverte" class="menu-item-label">Ensacheuse pour sachets préformés et gueule ouverte</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  last-li">
+                    <a href="/ensacheuse-sous-vide-tubes-horizontales" target="_self" class="page-name  ">
+                        <span data-hover="Ensacheuse sous vide – tubes horizontales" class="menu-item-label">Ensacheuse sous vide – tubes horizontales</span>
+
+                                            </a>
+                                    </li>
+                            </ul>
+
+                                    </li>
+                                            <li class="  show-divider">
+                    <a href="/doseuses" target="_self" class="page-name  ">
+                        <span data-hover="Doseuses" class="menu-item-label">Doseuses</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  show-divider">
+                    <a href="/accessoires-industriels" target="_self" class="page-name  ">
+                        <span data-hover="Accessoires industriels" class="menu-item-label">Accessoires industriels</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  show-divider">
+                    <a href="/remplisseuses" target="" class="page-name  ">
+                        <span data-hover="Remplisseuses" class="menu-item-label">Remplisseuses</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  active show-divider">
+                    <a href="/tri-optique" target="" class="page-name  ">
+                        <span data-hover="Tri optique" class="menu-item-label">Tri optique</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  show-divider">
+                    <a href="/maintenance-depannage" target="" class="page-name  ">
+                        <span data-hover="Maintenance – Dépannage" class="menu-item-label">Maintenance – Dépannage</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  last-li">
+                    <a href="/contact" target="" class="page-name  ">
+                        <span data-hover="Contact" class="menu-item-label">Contact</span>
+
+                                            </a>
+                                    </li>
+                            </ul>
+
+            </li>
+        </ul>
+    </nav>
+
+
+
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function(_event) {
+    var menu = document.querySelector(`#menu-block-configuration-438674`);
+    var menuPosition = 0;
+    var hasScrolled = false;
+    var isSticky = false;
+
+    if (menu && isSticky) {
+      menuPosition = menu.getBoundingClientRect().top + window.scrollY + menu.getBoundingClientRect().height;
+
+      window.addEventListener('scroll', function() {
+        hasScrolled = true;
+
+        if (hasScrolled) {
+          var scrollPosition = window.scrollY;
+
+          if (scrollPosition >= menuPosition) {
+            menu.classList.add('sticky-menu');
+          } else {
+            menu.classList.remove('sticky-menu');
+          }
+        }
+      });
+    }
+  });
+</script>
+</div>
+<div class="container-instance col-md-2 wt-container-16724207" id="wt-container-instance-73002425">
+    <div>
+        <a id="button-block-configuration-334578" class="button-block-configuration" href="/contact" target="_self">
+                            <div>
+                    Contactez-nous
+                </div>
+            
+            
+            
+                    </a>
+    </div>
+</div>
+</header>
+<div class="col-md-12 container-instance hidden-lg hidden-md wt-container-16724253" id="wt-container-instance-73002972">
+</div>
+<header class="col-md-12 container-instance hidden-lg hidden-md wt-container-16724206" id="wt-container-instance-73010358">
+<article class="container-instance col-md-12 wt-container-16374746" id="wt-container-instance-73010356">
+<a class="inherit-links" href="https://webtool.local.fr/pma-concept.com/"><img alt="PMA Concept " loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Logo2%20PMA%20Concept%20Machines%20industrielles%20automatis%C3%A9es%20%C3%A0%20Orl%C3%A9ans.webp" style="max-width: 180px; width: 100%;"></a>
+</article>
+<div class="container-instance col-md-12 wt-container-16390333" id="wt-container-instance-73010357">
+
+                                    <nav id="menu-block-configuration-452697" class="menu horizontal cl-effect cl-effect-3">
+        <input type="checkbox" id="menu-452697">
+        <ul>
+            <li class="menu-mobile">
+                <label for="menu-452697" class="">
+                    <span class="menu-switch">
+                        <span class="icon icon-open-menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M18 8H8" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+          <rect x="4" y="7" width="2" height="2" fill="currentColor"></rect>
+          <path d="M18 12H8" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+          <rect x="4" y="11" width="2" height="2" fill="currentColor"></rect>
+          <path d="M18 16H8" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+          <rect x="4" y="15" width="2" height="2" fill="currentColor"></rect>
+          </svg></span>
+                        <span class="icon icon-close-menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg></span>
+                        <span data-hover="Menu" class="open-menu-label">MENU</span>
+                        <span data-hover="Menu" class="close-menu-label">FERMER</span>
+                    </span>
+                </label>
+                        
+    <ul class="root">
+                                            <li class="  show-divider first-li">
+                    <a href="/" target="" class="page-name  ">
+                        <span data-hover="Accueil" class="menu-item-label">Accueil</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  show-divider">
+                    <a href="/ensacheuses" target="" class="page-name   with-children">
+                        <span data-hover="Ensacheuses" class="menu-item-label">Ensacheuses</span>
+
+                                                    <span class="page-indicator-svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" fill="none"></path>
+          </svg></span>
+                                            </a>
+                                            <input type="checkbox" id="page-452677-1199202">
+                        <label for="page-452677-1199202" class="">
+                            <span class="menu-switch">
+                                <span class="icon icon-open-menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+          </svg></span>
+                            </span>
+                        </label>
+                                
+    <ul class="branch">
+                                            <li class="  first-li">
+                    <a href="/ensacheuse-verticale" target="_self" class="page-name  ">
+                        <span data-hover="Ensacheuse verticale" class="menu-item-label">Ensacheuse verticale</span>
+
+                                            </a>
+                                    </li>
+                                            <li class=" ">
+                    <a href="/ensacheuse-pour-sachets-preformes-et-gueule-ouverte" target="_self" class="page-name  ">
+                        <span data-hover="Ensacheuse pour sachets préformés et gueule ouverte" class="menu-item-label">Ensacheuse pour sachets préformés et gueule ouverte</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  last-li">
+                    <a href="/ensacheuse-sous-vide-tubes-horizontales" target="_self" class="page-name  ">
+                        <span data-hover="Ensacheuse sous vide – tubes horizontales" class="menu-item-label">Ensacheuse sous vide – tubes horizontales</span>
+
+                                            </a>
+                                    </li>
+                            </ul>
+
+                                    </li>
+                                            <li class="  show-divider">
+                    <a href="/doseuses" target="_self" class="page-name  ">
+                        <span data-hover="Doseuses" class="menu-item-label">Doseuses</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  show-divider">
+                    <a href="/accessoires-industriels" target="_self" class="page-name  ">
+                        <span data-hover="Accessoires industriels" class="menu-item-label">Accessoires industriels</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  show-divider">
+                    <a href="/remplisseuses" target="" class="page-name  ">
+                        <span data-hover="Remplisseuses" class="menu-item-label">Remplisseuses</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  active show-divider">
+                    <a href="/tri-optique" target="" class="page-name  ">
+                        <span data-hover="Tri optique" class="menu-item-label">Tri optique</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  show-divider">
+                    <a href="/maintenance-depannage" target="" class="page-name  ">
+                        <span data-hover="Maintenance – Dépannage" class="menu-item-label">Maintenance – Dépannage</span>
+
+                                            </a>
+                                    </li>
+                                            <li class="  last-li">
+                    <a href="/contact" target="" class="page-name  ">
+                        <span data-hover="Contact" class="menu-item-label">Contact</span>
+
+                                            </a>
+                                    </li>
+                            </ul>
+
+            </li>
+        </ul>
+    </nav>
+
+
+
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function(_event) {
+    var menu = document.querySelector(`#menu-block-configuration-452697`);
+    var menuPosition = 0;
+    var hasScrolled = false;
+    var isSticky = false;
+
+    if (menu && isSticky) {
+      menuPosition = menu.getBoundingClientRect().top + window.scrollY + menu.getBoundingClientRect().height;
+
+      window.addEventListener('scroll', function() {
+        hasScrolled = true;
+
+        if (hasScrolled) {
+          var scrollPosition = window.scrollY;
+
+          if (scrollPosition >= menuPosition) {
+            menu.classList.add('sticky-menu');
+          } else {
+            menu.classList.remove('sticky-menu');
+          }
+        }
+      });
+    }
+  });
+</script>
+</div>
+</header>
+<div class="col-md-12 wt-container-16374732" id="wt-container-instance-70630491">
+<div class="col-md-12 container-instance wt-container-16391319" id="wt-container-instance-73015133">
+<div class="col-md-12 wt-container-16374718" id="wt-container-instance-73015134">
+<section class="container-instance background-webtool-ios col-md-12 wt-container-16374752" id="wt-container-instance-73016276">
+<div class="container-instance col-md-offset-1 col-md-10 wt-container-16725400" id="wt-container-instance-73016277">
+<div class="container-instance col-md-offset-0 col-md-6 wt-container-16374753" id="wt-container-instance-73016278">
+<h1 class="col-md-12 container-instance wt-container-16374755" id="wt-container-instance-73016262">
+Machines de tri optique à Orléans
+</h1>
+<article class="col-md-12 container-instance wt-container-16374746" id="wt-container-instance-73016263">
+<p>PMA Concept propose des <strong>machines de tri optique adaptées à la sélection de grains</strong>, céréales, coques, déchets, gravillons et granules divers. Ces équipements permettent d’optimiser vos lignes de production en séparant efficacement les produits conformes des impuretés, tout en garantissant précision et fiabilité.</p>
+</article>
+<div class="container-instance col-md-12 wt-container-16724852" id="wt-container-instance-73016264">
+    <div style="display: flex; justify-content: left">
+        <a id="button-block-configuration-335264" class="button-block-configuration" href="tel:+33673081794" target="_self">
+                            <div>
+                    Appelez-nous
+                </div>
+            
+            
+            
+                    </a>
+    </div>
+</div>
+</div>
+<article class="container-instance col-md-6 wt-container-16374746" id="wt-container-instance-73016265">
+<img alt="trieur optique horizontal" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/trieur%20optique%20horizontal.png" style="max-width: 749px; width: 100%;border-radius:20px;">
+</article>
+</div>
+</section>
+<section class="container-instance col-md-12 wt-container-16724861" id="wt-container-instance-73015137">
+<div class="container-instance col-md-offset-2 col-md-8 wt-container-16374753" id="wt-container-instance-73015138">
+<h2 class="col-md-12 container-instance wt-container-16374756" id="wt-container-instance-73015040">
+Principe de fonctionnement des trieurs optiques&nbsp;
+</h2>
+<article class="col-md-12 container-instance wt-container-16374746" id="wt-container-instance-73015041">
+Le tri optique repose sur la détection visuelle des anomalies dans le produit grâce à des <strong>caméras haute précision</strong>. Le produit, en chute contrôlée, est analysé et séparé en 2 ou 3 catégories, puis les éléments indésirables sont éjectés par un jet d’air pneumatique.
+</article>
+</div>
+</section>
+<div class="container-instance background-webtool-ios col-md-12 wt-container-16724846" id="wt-container-instance-73015144">
+<article class="container-instance col-md-offset-1 col-md-10 wt-container-16374746" id="wt-container-instance-73015052">
+<img alt="fond12 PMA Concept Machines industrielles automatisées à Orléans" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/fond12%20PMA%20Concept%20Machines%20industrielles%20automatis%C3%A9es%20%C3%A0%20Orl%C3%A9ans.webp" style="max-width: 1515px; width: 100%;">
+</article>
+<div class="container-instance col-md-offset-2 col-md-8 wt-container-16724870" id="wt-container-instance-73015145">
+<div class="container-instance col-md-12 wt-container-16724871" id="wt-container-instance-73015146">
+<h2 class="col-md-12 container-instance wt-container-16374756" id="wt-container-instance-73015053">
+<p style="text-align: center;">Gammes des trieurs optiques&nbsp;</p>
+</h2>
+<article class="col-md-12 container-instance wt-container-16374746" id="wt-container-instance-73015054">
+Nos machines de tri optique sont disponibles en plusieurs configurations afin de répondre aux différents besoins industriels. Chaque machine est conçue pour s’intégrer facilement à vos installations existantes et pour <strong>améliorer la productivité</strong>.
+</article>
+</div>
+</div>
+</div>
+<div class="container-instance col-md-offset-2 col-md-8 wt-container-16724864" id="wt-container-instance-73015141">
+<article class="container-instance col-md-3 wt-container-16374746" id="wt-container-instance-73015046">
+<p style="text-align: center;"><img alt="trieur optique 1 ou 2 couloir PME" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/trieur%20optique%201%20ou%202%20couloir%20PME.png" style="max-width: 327px; width: 100%;"></p>
+</article>
+<div class="container-instance col-md-9 wt-container-16725369" id="wt-container-instance-73015358">
+<h3 class="container-instance col-md-12 wt-container-16374754" id="wt-container-instance-73015047">
+Trieurs 2 à 10 canaux&nbsp;
+</h3>
+<article class="container-instance col-md-12 wt-container-16374746" id="wt-container-instance-73015048">
+<style type="text/css">tr:hover{ color: #fff; background-color: #3932D5 !important; }
+  td{ padding:0.5%;
+}
+  
+  tr {
+  border-bottom: 1px solid #3932D5 ; 
+}
+</style>
+<table border="0" cellpadding="0" width="100%">
+	<tbody>
+		<tr>
+			<td valign="middle" width="35%">
+			<p>Largeur de chute</p>
+			</td>
+			<td valign="middle" width="65%">
+			<p>300 mm par canal</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" width="35%">
+			<p>Capacité</p>
+			</td>
+			<td valign="middle" width="65%">
+			<p>3 à 30 tonnes/heure selon type de produit et largeur de chute</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" width="35%">
+			<p>Technologie</p>
+			</td>
+			<td valign="middle" width="65%">
+			<p>Caméra CCD RGB 2048 pixels, algorithme de tri géré par chipset DSP+FPGA Alteral USA et Xiling</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" width="35%">
+			<p>Éjecteurs</p>
+			</td>
+			<td valign="middle" width="65%">
+			<p>Type Matrix 4 sorties, 1,6 million de manœuvres</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" width="35%">
+			<p>Éclairage et pilotage</p>
+			</td>
+			<td valign="middle" width="65%">
+			<p>Éclairage LED, pilotage par écran tactile, gestion de 100 recettes possibles</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</article>
+</div>
+<div class="col-md-12 container-instance hidden-lg hidden-md wt-container-16724882" id="wt-container-instance-73015142">
+</div>
+</div>
+<div class="container-instance col-md-offset-2 col-md-8 wt-container-16724864" id="wt-container-instance-73015356">
+<article class="container-instance col-md-3 wt-container-16374746" id="wt-container-instance-73015353">
+<p style="text-align: center;"><img alt="trieur optique laboratoire" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/trieur%20optique%20laboratoire.png" style="max-width: 220px; width: 100%;"></p>
+</article>
+<div class="container-instance col-md-9 wt-container-16725368" id="wt-container-instance-73015357">
+<h3 class="container-instance col-md-12 wt-container-16374754" id="wt-container-instance-73015354">
+Configuration des trieurs optiques
+</h3>
+<article class="container-instance col-md-12 wt-container-16374746" id="wt-container-instance-73015355">
+<table border="0" cellpadding="0" width="100%">
+	<tbody>
+		<tr>
+			<td valign="middle" width="35%">
+			<p>Alimentation</p>
+			</td>
+			<td valign="middle" width="65%">
+			<p>230V – 50Hz, 6 bar, 400 l/mn par canal</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" width="35%">
+			<p>Construction</p>
+			</td>
+			<td valign="middle" width="65%">
+			<p>Robuste pour usage industriel intensif</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" width="35%">
+			<p>Certification</p>
+			</td>
+			<td valign="middle" width="65%">
+			<p>Machine certifiée CE, garantie 1 an</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" width="35%">
+			<p>Délais de livraison</p>
+			</td>
+			<td valign="middle" width="65%">
+			<p>6 semaines</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" width="35%">
+			<p>Remarques</p>
+			</td>
+			<td valign="middle" width="65%">
+			<p>Assure un tri précis et rapide pour optimiser la qualité des produits tout en réduisant les pertes</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</article>
+</div>
+</div>
+<div class="container-instance col-md-12 wt-container-16724873" id="wt-container-instance-73015147">
+<div class="container-instance col-md-offset-1 col-md-7 wt-container-16724874" id="wt-container-instance-73015148">
+<h2 class="container-instance col-md-12 wt-container-16374756" id="wt-container-instance-73015056">
+FAQ sur les trieurs optiques
+</h2>
+<div class="col-md-12 container-instance wt-container-16725295" id="wt-container-instance-73015378">
+            <link rel="stylesheet" href="https://widget.local.fr/preview/widget.css">
+        <div widget-uuid="599785cd-b2ad-4120-8e83-d45cf31fe444" p-widget-code="FAQ" style="width: 100%; border: none; overflow: hidden; margin: 0 auto;
+                font-family: inherit" data-widget-mounted="true"><div data-localwidget="root"><div class="ant-spin-nested-loading wrapper-simulateur css-vrrzze"><div class="ant-spin-container"><div class="w-full overflow-hidden" style="border-width: medium; border-style: none; border-color: currentcolor; border-image: none; box-shadow: none;"><div style="display: flex; flex-direction: column;"><div class="faq-item-container" style="display: flex; align-items: flex-start; margin-bottom: 10px;"><div style="flex: 1 1 0%; display: grid; min-width: 0px;"><div class="flex justify-between items-center cursor-pointer transition-colors duration-300" style="color: rgb(255, 255, 255); background: transparent; font-size: 18px; font-weight: bold; padding: 10px 15px; box-shadow: none; border-bottom: 1px solid rgb(226, 226, 226);"><div class="mr-1 break-words" style="overflow-wrap: break-word;"><div class="font-bold" style="margin: 0px; padding: 0px; font-size: 18px; font-weight: bold;">Comment choisir un trieur optique adapté à mes céréales et granulés ?</div></div><div class="mr-10"><span class="transition-all duration-300 inline-block" style="color: rgb(255, 255, 255); transform: rotate(0deg); width: 15px; height: 15px; display: flex; align-items: center; justify-content: center;"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="9" fill="currentColor" viewBox="0 0 512 298.04"><path fill-rule="nonzero" d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"></path></svg></span></div></div><div class="overflow-hidden" style="color: rgb(255, 255, 255); background: transparent; font-size: 16px; font-weight: normal; padding: 0px 15px 0px 28px; box-shadow: none; max-height: 0px; opacity: 0; transition: max-height 0.3s, opacity 0.3s, padding 0.3s;"><span class="font-normal" style="display: block; opacity: 0; transform: translateY(-10px); transition: opacity 0.3s 0.1s, transform 0.3s 0.1s; overflow-wrap: break-word; word-break: normal;">Le choix d’un trieur optique dépend de la taille des grains, de la cadence souhaitée et du type de produit à traiter pour garantir un tri précis et homogène.</span></div></div></div><div class="faq-item-container" style="display: flex; align-items: flex-start; margin-bottom: 10px;"><div style="flex: 1 1 0%; display: grid; min-width: 0px;"><div class="flex justify-between items-center cursor-pointer transition-colors duration-300" style="color: rgb(255, 255, 255); background: transparent; font-size: 18px; font-weight: bold; padding: 10px 15px; box-shadow: none; border-bottom: 1px solid rgb(226, 226, 226);"><div class="mr-1 break-words" style="overflow-wrap: break-word;"><div class="font-bold" style="margin: 0px; padding: 0px; font-size: 18px; font-weight: bold;">Les trieurs optiques peuvent-ils gérer différents types de déchets et impuretés ?</div></div><div class="mr-10"><span class="transition-all duration-300 inline-block" style="color: rgb(255, 255, 255); transform: rotate(0deg); width: 15px; height: 15px; display: flex; align-items: center; justify-content: center;"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="9" fill="currentColor" viewBox="0 0 512 298.04"><path fill-rule="nonzero" d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"></path></svg></span></div></div><div class="overflow-hidden" style="color: rgb(255, 255, 255); background: transparent; font-size: 16px; font-weight: normal; padding: 0px 15px 0px 28px; box-shadow: none; max-height: 0px; opacity: 0; transition: max-height 0.3s, opacity 0.3s, padding 0.3s;"><span class="font-normal" style="display: block; opacity: 0; transform: translateY(-10px); transition: opacity 0.3s 0.1s, transform 0.3s 0.1s; overflow-wrap: break-word; word-break: normal;">Oui, ces machines permettent de séparer efficacement coques, gravillons, particules étrangères ou granulés défectueux, en optimisant la qualité finale du produit.</span></div></div></div><div class="faq-item-container" style="display: flex; align-items: flex-start;"><div style="flex: 1 1 0%; display: grid; min-width: 0px;"><div class="flex justify-between items-center cursor-pointer transition-colors duration-300" style="color: rgb(255, 255, 255); background: transparent; font-size: 18px; font-weight: bold; padding: 10px 15px; box-shadow: none;"><div class="mr-1 break-words" style="overflow-wrap: break-word;"><div class="font-bold" style="margin: 0px; padding: 0px; font-size: 18px; font-weight: bold;">Quels sont les avantages d’un trieur optique par rapport au tri manuel ?</div></div><div class="mr-10"><span class="transition-all duration-300 inline-block" style="color: rgb(255, 255, 255); transform: rotate(0deg); width: 15px; height: 15px; display: flex; align-items: center; justify-content: center;"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="9" fill="currentColor" viewBox="0 0 512 298.04"><path fill-rule="nonzero" d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"></path></svg></span></div></div><div class="overflow-hidden" style="color: rgb(255, 255, 255); background: transparent; font-size: 16px; font-weight: normal; padding: 0px 15px 0px 28px; box-shadow: none; max-height: 0px; opacity: 0; transition: max-height 0.3s, opacity 0.3s, padding 0.3s;"><span class="font-normal" style="display: block; opacity: 0; transform: translateY(-10px); transition: opacity 0.3s 0.1s, transform 0.3s 0.1s; overflow-wrap: break-word; word-break: normal;">Le tri optique réduit le risque d’erreur humaine, augmente la productivité, permet un contrôle précis et constant de la qualité et diminue les pertes de produits lors du conditionnement.</span></div></div></div></div></div></div></div></div></div>
+        <script src="https://widget-api.local.fr/api/v1/render/599785cd-b2ad-4120-8e83-d45cf31fe444" async=""></script>
+                <script>
+            (function() {
+                fetch('/api/faq/customer/547877/json-ld')
+                    .then(response => response.text())
+                    .then(data => {
+                        const scriptMatch = data.match(/<script[^>]*>(.*?)<\/script>/s);
+                        if (scriptMatch && scriptMatch[1]) {
+                            const jsonContent = scriptMatch[1].trim();
+                            const faqScript = document.createElement('script');
+                            faqScript.type = 'application/ld+json';
+                            faqScript.setAttribute('data-faq-id', 'faq-structured-data-FAQ-599785cd-b2ad-4120-8e83-d45cf31fe444');
+                            faqScript.textContent = jsonContent;
+                            document.head.appendChild(faqScript);
+
+                        }
+                    })
+            })();
+        </script>
+            </div>
+</div>
+<article class="container-instance col-md-4 wt-container-16374746" id="wt-container-instance-73015059">
+<img alt="trieur optique x couloir PMI" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/trieur%20optique%20x%20couloir%20PMI.png" style="max-width: 734px; width: 100%;">
+</article>
+</div>
+</div>
+<div class="container-instance col-md-12 wt-container-16724877" id="wt-container-instance-73015149">
+<div class="container-instance col-md-offset-2 col-md-8 wt-container-16724878" id="wt-container-instance-73015150">
+<h2 class="col-md-12 container-instance wt-container-16374756" id="wt-container-instance-73015060">
+<p>Installez un trieur optique performant à Orléans</p>
+</h2>
+<article class="col-md-12 container-instance wt-container-16374746" id="wt-container-instance-73015061">
+Demandez un devis ou des conseils techniques pour sélectionner le trieur optique correspondant à vos besoins et améliorer la qualité de vos lots. Nous vous accompagnons dans le choix de la configuration la plus adaptée à vos produits.
+</article>
+<div class="container-instance col-md-12 wt-container-16724852" id="wt-container-instance-73015062">
+    <div style="display: flex; justify-content: left">
+        <a id="button-block-configuration-335196" class="button-block-configuration" href="/contact" target="_self">
+                            <div>
+                    Commandez votre trieur
+                </div>
+            
+            
+            
+                    </a>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="col-md-12 container-instance hidden-sm hidden-xs wt-container-16374746" id="wt-container-instance-70630539">
+<article class="container-instance col-md-3 wt-container-16374746" id="wt-container-instance-70761831">
+<p><a class="inherit-links" href="https://webtool.local.fr/pma-concept.com/"><img alt="PMA Concept" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/PMA%20Concept.webp" style="max-width: 230px; width: 100%;background-color:#fff;padding:17px;padding-right:10px;padding-left:10px; margin-bottom:2%;"></a></p>
+
+<p>Conception et intégration de machines industrielles automatisées. Des solutions complètes de conditionnement, dosage et tri en France et en Europe.</p>
+</article>
+<div class="container-instance col-md-offset-1 col-md-4 wt-container-16724212" id="wt-container-instance-73002431">
+<article class="col-md-12 container-instance wt-container-16374746" id="wt-container-instance-73002432">
+MENU
+</article>
+<article class="col-md-12 container-instance wt-container-16374746" id="wt-container-instance-73002433">
+<p><a class="inherit-links" href="https://webtool.local.fr/pma-concept.com/">Accueil</a></p>
+
+<p><a class="inherit-links" href="https://webtool.local.fr/pma-concept.com/ensacheuses">Ensacheuses</a></p>
+
+<p><a class="inherit-links" href="https://webtool.local.fr/pma-concept.com/doseuses" target="_self">Doseuses</a></p>
+
+<p><a class="inherit-links" href="https://webtool.local.fr/pma-concept.com/accessoires-industriels" target="_self">Accessoires industriels</a></p>
+
+<p><a class="inherit-links" href="https://webtool.local.fr/pma-concept.com/remplisseuses">Remplisseuses</a></p>
+
+<p><a class="inherit-links" href="https://webtool.local.fr/pma-concept.com/tri-optique">Tri optique</a></p>
+
+<p><a class="inherit-links" href="https://webtool.local.fr/pma-concept.com/maintenance-depannage">Maintenance – Dépannage</a></p>
+
+<p><a class="inherit-links" href="https://webtool.local.fr/pma-concept.com/contact">Contact</a></p>
+</article>
+</div>
+<div class="container-instance col-md-3 wt-container-16724212" id="wt-container-instance-73002461">
+<article class="col-md-12 container-instance wt-container-16374746" id="wt-container-instance-73002462">
+NOUS CONTACTER
+</article>
+<article class="col-md-12 container-instance wt-container-16374746" id="wt-container-instance-73002463">
+<p><a class="inherit-links" href="tel:+33673081794"><img alt="Phone" class="float-shadow" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Phone.png" style=" width: 25px; height: 22px;"></a>&nbsp; <a class="inherit-links" href="tel:+33673081794">Appelez-nous</a></p>
+</article>
+<article class="col-md-12 container-instance wt-container-16374746" id="wt-container-instance-73002464">
+<p><a class="inherit-links" href="mailto:ph.martin@pma-concept.com"><img alt="Email" class="float-shadow" decoding="async" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Email.png" style="width: 27px; height: 17px;"></a>&nbsp; &nbsp;<a class="inherit-links" href="mailto:ph.martin@pma-concept.com">Envoyez-nous vos demandes</a></p>
+</article>
+<article class="col-md-12 container-instance wt-container-16374746" id="wt-container-instance-73002465">
+<p><a class="inherit-links" href="https://maps.app.goo.gl/9ogeK5FRqu1iYLAX6" target="_blank"><img alt="Location" class="float-shadow" decoding="async" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Location.png" style="width: 21px; height: 28px;"></a>&nbsp; 14 rue du devidet<br>
+&nbsp; &nbsp; &nbsp; &nbsp;45000 ORLÉANS<br>
+&nbsp; &nbsp; &nbsp; &nbsp;France</p>
+</article>
+</div>
+<div class="col-md-12 wt-container-16374740" id="wt-container-instance-70630501">
+<div class="col-md-offset-2 col-md-2 wt-container-16374741" id="wt-container-instance-70630502">
+    <a href="https://www.pma-concept.fr/mentions-legales" class="block-link" target="_self" rel="nofollow">Législation &amp; RGPD</a>
+</div>
+<div class="col-md-2 wt-container-16374742" id="wt-container-instance-70630503">
+    <a href="https://www.pma-concept.fr/mentions-legales#intellectual-property" class="block-link" target="_self" rel="nofollow">© 2025 PMA CONCEPT</a>
+</div>
+<div class="col-md-2 wt-container-16374743" id="wt-container-instance-70630504">
+    <a href="https://www.localetmoi.fr" class="block-link" target="_blank" rel="nofollow">Mettre à jour mon site internet</a>
+</div>
+<div class="col-md-2 wt-container-16374744" id="wt-container-instance-70630505">
+    Créé par <a href="https://www.local.fr/" class="localfr-link" target="_blank">Local.fr</a>
+</div>
+</div>
+</footer>
+<footer class="col-md-12 container-instance hidden-lg wt-container-16374746" id="wt-container-instance-73002671">
+<div class="col-md-12 hidden-lg hidden-md wt-container-16374740" id="wt-container-instance-73002672">
+<div class="col-md-12 wt-container-16374741" id="wt-container-instance-73002673">
+    <a href="https://www.pma-concept.fr/mentions-legales" class="block-link" target="_self" rel="nofollow">Législation &amp; RGPD</a>
+</div>
+<div class="col-md-12 wt-container-16374742" id="wt-container-instance-73002674">
+    <a href="https://www.pma-concept.fr/mentions-legales#intellectual-property" class="block-link" target="_self" rel="nofollow">© 2025 PMA CONCEPT</a>
+</div>
+<div class="col-md-12 wt-container-16374743" id="wt-container-instance-73002675">
+    <a href="https://www.localetmoi.fr" class="block-link" target="_blank" rel="nofollow">Mettre à jour mon site internet</a>
+</div>
+<div class="col-md-12 wt-container-16374744" id="wt-container-instance-73002676">
+    Créé par <a href="https://www.local.fr/" class="localfr-link" target="_blank">Local.fr</a>
+</div>
+</div>
+<article class="col-md-12 container-instance wt-container-16374746" id="wt-container-instance-73002677">
+<a class="inherit-links" href="tel:+33673081794"><img alt="Phone" class="float-shadow" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Phone.png" style=" width: 25px; height: 22px;"></a>&nbsp; <a class="inherit-links" href="https://maps.app.goo.gl/9ogeK5FRqu1iYLAX6" target="_blank"><img alt="Location" class="float-shadow" decoding="async" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Location.png" style="width: 21px; height: 28px;"></a>&nbsp; &nbsp;<a class="inherit-links" href="mailto:ph.martin@pma-concept.com"><img alt="Email" class="float-shadow" decoding="async" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Email.png" style="width: 27px; height: 17px;"></a>
+</article>
+</footer>
+<article class="col-md-12 container-instance hidden-lg hidden-md wt-container-16374746" id="wt-container-instance-73002973">
+<style type="text/css">#menu-block-configuration-452681 ul.root>li:not(.item-picture) {
+   
+    width: 53%;
+}
+</style>
+<a class="inherit-links" href="tel:+33673081794"><img alt="Phone" class="float-shadow" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Phone.png" style=" width: 25px; height: 22px;"></a>&nbsp; <a class="inherit-links" href="https://maps.app.goo.gl/9ogeK5FRqu1iYLAX6" target="_blank"><img alt="Location" class="float-shadow" decoding="async" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Location.png" style="width: 21px; height: 28px;"></a>&nbsp; &nbsp;<a class="inherit-links" href="mailto:ph.martin@pma-concept.com"><img alt="Email" class="float-shadow" decoding="async" loading="lazy" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Email.png" style="width: 27px; height: 17px;"></a>
+</article>
+<div class="col-md-12 container-instance wt-container-16737226 go-top-ios-enabled" id="wt-container-instance-73077216">
+            <picture>
+            <source srcset="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/media/cache/auto_tmb_webp/userfiles/145431/refonte241125/Bouton-retour-vers-le-haut--2.webp" type="image/webp">
+            <img id="btn-go-top" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/145431/refonte241125/Bouton-retour-vers-le-haut--2.webp" class="goTop-block-configuration" height="45px" alt="#" onerror="this.onerror=null;if(this.parentNode.children[0].srcset){this.parentNode.children[0].srcset=this.src;}">
+        </picture>
+    </div>
+</main>
+
+    </div>
+
+    
+            <script type="text/javascript" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/vendor/jquery/dist/jquery.min.js"></script>
+
+            <script type="text/javascript" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/js/commonLib.js"></script>
+            <script type="text/javascript" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/js/cookieManager.js"></script>
+            <script type="text/javascript" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolmenu/js/horizontal.js"></script>
+            <script type="text/javascript" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolshortcut/js/goTop.js"></script>
+    
+    
+    <script type="text/javascript" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/vendor/Adipoli/js/jquery.adipoli.js"></script>
+    <script type="text/javascript" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/vendor/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/js/effects.js"></script>
+    <script type="text/javascript" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/js/animation.js"></script>
+    <script type="text/javascript" src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/bundles/webtoolcore/js/didomiCookie.js"></script>
+    <script type="text/javascript" src="/js/1199205.js"></script>
+                <script type="text/javascript" data-cookiecategory="performance">
+                    window.didomiOnReady = window.didomiOnReady || [];
+                    window.didomiOnReady.push(function (Didomi) {
+                        pa.privacy.include.properties(['customer_code', 'c_webdomain', 'c_hostname', 'c_idmp'], ['exempt'], ['page.display']);
+                        // Check the consent status for the AT Internet vendor
+                        var defaultstatus = Didomi.getUserConsentStatusForVendor("c:atinterne-cWQKHeJZ");
+                        if (true === defaultstatus) {
+                            // If the consent status is true, activate the opt-in visitor mode
+                            pa.privacy.setMode('optin');
+                            sendTracker();
+                        } else {
+                            // Else, if the visitor mode is not "opt-out", then activate the exempt mode
+                            if (pa.privacy.getMode() == null || pa.privacy.getMode().name !== "optout") {
+                                pa.privacy.setMode('exempt');
+                                sendTracker();
+                            }
+                        }
+                    });
+                    
+                    function sendTracker() {
+                        pa.setConfigurations({
+                            site: 629910,
+                            collectDomain: 'https://logs1412.xiti.com'
+                        });
+                        pa.setProperties({
+                            'customer_code': 547877,
+                            'c_webdomain': 'pma-concept.fr',
+                            'c_hostname' : 'www.pma-concept.fr',
+                            'c_idmp': 'c5o128'
+                        },{
+                            'persistent': true
+                        });
+                        pa.sendEvent('page.display', {
+                            'page': 'tri-optique',
+                        });
+                    }
+                </script>
+
+    
+
+</body></html>
