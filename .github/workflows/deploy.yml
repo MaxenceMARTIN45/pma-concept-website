@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, feat/site-complet-github-pages]
   workflow_dispatch:
 
 permissions:
@@ -23,9 +23,6 @@ jobs:
         with:
           node-version: 20
           cache: npm
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - run: npm ci
       - run: npm run build
         env:
