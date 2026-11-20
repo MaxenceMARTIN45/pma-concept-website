@@ -27,7 +27,7 @@ export const remplisseuses: PageData = {
           text: "Les **remplisseuses linéaires** sont idéales pour les petites et les moyennes productions, offrant un contrôle précis du débit et une cadence adaptée à vos besoins. Leur configuration permet un accès facile pour le nettoyage et [la maintenance](/maintenance-depannage), et une gestion simple des différentes recettes de production.",
         },
         {
-          image: "remplisseuse-bouteilles-pe-ou-gericanes-2.png",
+          image: "remplisseuse-rotative.webp",
           title: "Remplisseuses rotatives",
           text: "Les **remplisseuses rotatives** conviennent aux lignes à plus haute cadence. Elles assurent un remplissage rapide et uniforme tout en maintenant la précision, même sur des volumes importants. Leur conception modulable permet d’adapter le nombre de postes en fonction des besoins de production.",
         },
@@ -49,9 +49,10 @@ export const remplisseuses: PageData = {
           text: "Les **remplisseuses volumétriques** mesurent le produit à distribuer selon un volume défini. Elles sont adaptées aux produits fluides ou semi-fluides et permettent un contrôle précis pour une distribution uniforme.",
         },
         {
-          image: "remplisseuse-e-liquide.png",
-          title: "Remplisseuses gravimétriques",
-          text: "Les **remplisseuses gravimétriques** se basent sur la pesée exacte du produit pour assurer un remplissage précis. Elles sont particulièrement adaptées aux produits nécessitant une précision élevée, même à forte cadence.",
+          image: "remplisseuse-tubes-rotative.webp",
+          alt: "Tubes remplis, types de pliage pour tubes métalliques et marquage du lot",
+          title: "Remplisseuses rotatives pour tubes",
+          text: "Les **remplisseuses rotatives pour tubes** assurent le remplissage et la fermeture de tubes plastiques ou métalliques : crèmes, colles, pâtes ou gels. Plusieurs types de pliage sont proposés pour les tubes métalliques, avec marquage du numéro de lot ou de la date directement dans la fermeture.",
         },
       ],
     },

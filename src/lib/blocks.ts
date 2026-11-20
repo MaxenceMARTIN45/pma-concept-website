@@ -23,10 +23,13 @@ export type ProductItem = {
 export type Block =
   | { type: "intro"; title: string; text?: string; cta?: Cta; divider?: boolean; ctaCentered?: boolean }
   | { type: "rows"; items: RowItem[]; divider?: boolean }
-  | { type: "products"; items: ProductItem[]; divider?: boolean }
+  /** large: bigger pictures column */
+  | { type: "products"; items: ProductItem[]; divider?: boolean; large?: boolean }
   | { type: "banner"; bg?: string; image: string; alt?: string; title: string; text?: string; cta?: Cta; rows?: SpecRow[] }
   | { type: "band"; tone?: "dark" | "blue"; title: string; text?: string; cta?: Cta; image: string; alt?: string; faq?: boolean; flush?: boolean }
   | { type: "strip"; images: string[] }
+  /** captioned groups of small pictures */
+  | { type: "gallery"; groups: { title: string; images: string[] }[] }
   | { type: "cta"; title: string; text: string; cta: Cta };
 
 export type PageData = {

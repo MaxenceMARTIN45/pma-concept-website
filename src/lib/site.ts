@@ -8,7 +8,7 @@ export const nav: NavItem[] = [
     children: [
       { label: "Ensacheuse verticale", href: "/ensacheuse-verticale" },
       { label: "Ensacheuse pour sachets préformés et gueule ouverte", href: "/ensacheuse-pour-sachets-preformes-et-gueule-ouverte" },
-      { label: "Ensacheuse sous vide – tubes horizontales", href: "/ensacheuse-sous-vide-tubes-horizontales" },
+      { label: "Ensacheuse horizontale", href: "/ensacheuse-sous-vide-tubes-horizontales" },
     ],
   },
   { label: "Doseuses", href: "/doseuses" },

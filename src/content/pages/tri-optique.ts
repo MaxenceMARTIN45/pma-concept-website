@@ -31,7 +31,7 @@ export const triOptique: PageData = {
           images: ["trieur-optique-1-ou-2-couloir-pme.png"],
           rows: [
             ["Largeur de chute", "300 mm par canal"],
-            ["Capacité", "3 à 30 tonnes/heure selon type de produit et largeur de chute"],
+            ["Capacité", "0,3 à 4 tonnes/heure selon type de produit et largeur de chute"],
             ["Technologie", "Caméra CCD RGB 2048 pixels, algorithme de tri géré par chipset DSP+FPGA Alteral USA et Xiling"],
             ["Éjecteurs", "Type Matrix 4 sorties, 1,6 million de manœuvres"],
             ["Éclairage et pilotage", "Éclairage LED, pilotage par écran tactile, gestion de 100 recettes possibles"],
@@ -44,7 +44,7 @@ export const triOptique: PageData = {
             ["Alimentation", "230V – 50Hz, 6 bar, 400 l/mn par canal"],
             ["Construction", "Robuste pour usage industriel intensif"],
             ["Certification", "Machine certifiée CE, garantie 1 an"],
-            ["Délais de livraison", "6 semaines"],
+            ["Délais de livraison", "14 à 16 semaines"],
             ["Remarques", "Assure un tri précis et rapide pour optimiser la qualité des produits tout en réduisant les pertes"],
           ],
         },

@@ -2,6 +2,7 @@ import BannerCard from "./BannerCard";
 import CtaCard from "./CtaCard";
 import Faq from "./Faq";
 import FeatureRows from "./FeatureRows";
+import Gallery from "./Gallery";
 import ImageStrip from "./ImageStrip";
 import ProductList from "./ProductList";
 import SectionIntro from "./SectionIntro";
@@ -26,7 +27,7 @@ export default function BlockRenderer({ block }: { block: Block }) {
     case "products":
       return (
         <div className="bg-[#f6f6f6] pb-[2%]">
-          <ProductList items={block.items} divider={block.divider} />
+          <ProductList items={block.items} divider={block.divider} large={block.large} />
         </div>
       );
     case "banner":
@@ -37,6 +38,8 @@ export default function BlockRenderer({ block }: { block: Block }) {
       );
     case "strip":
       return <ImageStrip images={block.images} />;
+    case "gallery":
+      return <Gallery groups={block.groups} />;
     case "cta":
       return (
         <div className="bg-[#f6f6f6]">

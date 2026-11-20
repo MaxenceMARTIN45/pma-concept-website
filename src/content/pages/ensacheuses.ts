@@ -4,7 +4,7 @@ export const ensacheuses: PageData = {
   slug: "ensacheuses",
   title: "Vente d’ensacheuses à Orléans | Demandez plus de détails",
   description:
-    "PMA Concept commercialise des ensacheuses verticales, sous vide et pour sachets préformés en France et en Europe. Contactez-nous pour plus d’informations.",
+    "PMA Concept commercialise des ensacheuses verticales, horizontales et pour sachets préformés en France et en Europe. Contactez-nous pour plus d’informations.",
   hero: {
     title: "Vente d’ensacheuses à Orléans",
     text: "Nous proposons la **vente d’ensacheuses pour poudre**, liquide ou granulés, adaptées à différents types de production industrielle. À Orléans, nous accompagnons nos clients dans la gestion de machines industrielles et la mise en œuvre de solutions automatisées pour le conditionnement. Notre objectif est de vous fournir des équipements fiables et adaptés à vos besoins.",
@@ -42,8 +42,8 @@ export const ensacheuses: PageData = {
     {
       type: "banner",
       image: "fond7-pma-concept-machines-industrielles-automatisees-a-orleans.webp",
-      title: "Ensacheuse sous vide",
-      text: "Nos [ensacheuses sous vide et tubes horizontales](/ensacheuse-sous-vide-tubes-horizontales) permettent un conditionnement hermétique et **sécurisé des produits sensibles**. Elles conviennent aux applications alimentaires ou techniques, en garantissant la conservation et la présentation des produits. Chaque machine est accompagnée de conseils pour son installation et son paramétrage.",
+      title: "Ensacheuse horizontale",
+      text: "Nos [ensacheuses horizontales à film gaine](/ensacheuse-sous-vide-tubes-horizontales) permettent un conditionnement en sachets coussins **soudés et sécurisés**. Elles conviennent aux applications alimentaires ou techniques, en garantissant la conservation et la présentation des produits. Chaque machine est accompagnée de conseils pour son installation et son paramétrage.",
       cta: { label: "Choisissez votre ensacheuse", href: "/ensacheuse-sous-vide-tubes-horizontales" },
     },
     {
@@ -56,7 +56,7 @@ export const ensacheuses: PageData = {
     {
       type: "cta",
       title: "Achetez votre ensacheuse à Orléans",
-      text: "Pour vos besoins en ensacheuses verticales, pour sachets préformés ou sous vide, nous vous invitons à nous contacter.\nDemandez un devis ou une démonstration pour intégrer nos machines dans vos installations industrielles.",
+      text: "Pour vos besoins en ensacheuses verticales, horizontales ou pour sachets préformés, nous vous invitons à nous contacter.\nDemandez un devis ou une démonstration pour intégrer nos machines dans vos installations industrielles.",
       cta: { label: "Contactez-nous", href: "/contact" },
     },
   ],
