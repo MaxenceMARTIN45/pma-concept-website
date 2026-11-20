@@ -27,7 +27,7 @@ export const doseuses: PageData = {
           text: "Les doseuses pour poudre et granulés permettent un dosage linéaire ou pondéral précis, avec régulation PID pour optimiser la vitesse de remplissage. La structure en INOX 304 ou 316 sur demande assure hygiène et résistance à l’usure, tandis que l’écran tactile permet le paramétrage rapide des doses et la mémorisation de recettes multiples.",
         },
         {
-          image: "doseur-lineaire-4-couloirs.png",
+          image: "doseuse-liquides-pateux.webp",
           title: "Doseuses liquides & pâteux",
           text: "Nos doseuses liquides et pâteux garantissent un débit constant et un **contrôle précis de la quantité distribuée**. Elles sont adaptées aux viscosités variables et permettent un réglage fin des doses via l’écran tactile, assurant un remplissage régulier et reproductible.",
         },

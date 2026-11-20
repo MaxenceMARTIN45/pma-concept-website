@@ -32,28 +32,28 @@ const solutions: RowItem[] = [
     alt: "ensacheuse et accessoires",
     title: "Ensacheuse",
     href: "/ensacheuses",
-    text: "Nous proposons des ensacheuses verticales et horizontales capables de former, remplir et sceller des sachets de poudre, grains ou confiseries.\nPour les produits sensibles, nous intégrons également des ensacheuses pour sachets préformés et à gueule ouverte, ainsi que des ensacheuses sous vide pour tubes horizontaux. Ces machines assurent un conditionnement continu et précis, adapté à tous types de produits secs ou granulés.",
+    text: "Nous proposons des ensacheuses verticales et horizontales capables de former, remplir et sceller des sachets de poudre ou de grains.\nPour les petites productions, nous intégrons également des ensacheuses pour sachets préformés et à gueule ouverte, ainsi que des ensacheuses sous vide avec ou sans operculage. Ces machines assurent un conditionnement continu et précis, adapté à tous types de produits : secs, humides, poudres ou granulés.",
   },
   {
     image: "doseur.png",
     alt: "doseur linéaire 2 couloirs poudre ou granules",
     title: "Doseurs",
     href: "/doseuses",
-    text: "Nos doseurs industriels sont conçus pour tous types de produits : poudre, granulés, liquides ou pâteux.\nIls peuvent être volumétriques, pondéraux ou peseuses associatives, offrant un dosage précis et fiable pour chaque format et cadence de production.\nIls s’intègrent parfaitement à vos lignes de conditionnement et garantissent régularité et productivité.",
+    text: "Nos doseurs industriels sont conçus pour tous types de produits : poudre, granulés, liquides ou pâteux.\nIls peuvent être volumétriques, pondéraux mono ou multicanaux de type linéaire, ou sous forme de peseuses associatives, offrant un dosage précis et fiable pour chaque format et cadence de production.\nIls s’intègrent parfaitement à vos lignes de conditionnement et garantissent régularité et productivité.",
   },
   {
     image: "accessoires.png",
     alt: "C tapis d'alimentation automatique aspirant avec margeur et mise en lot",
     title: "Accessoires et périphériques industriels",
     href: "/accessoires-industriels",
-    text: "Complétez vos lignes de production avec des étiqueteuses automatiques, imprimantes industrielles, détecteurs de métaux ou tapis de pesage. Ces accessoires s’intègrent facilement à vos équipements existants, améliorant traçabilité et contrôle qualité.",
+    text: "Complétez vos lignes de production avec des étiqueteuses automatiques, imprimantes industrielles, détecteurs de métaux, tapis de pesage ou systèmes de convoyage adaptés à votre configuration. Ces accessoires s’intègrent facilement à vos équipements existants, améliorant traçabilité et contrôle qualité.",
   },
   {
     image: "remplisseuse.png",
     alt: "remplisseuse tube PE",
     title: "Remplisseuses automatiques",
     href: "/remplisseuses",
-    text: "Nos remplisseuses automatisées assurent le dosage régulier de produits fluides ou pâteux dans des contenants rigides : pots, tubes, flacons ou bouteilles.\nLe choix de la technologie de remplissage dépend du produit, de la cadence et du format, garantissant une production efficace, précise et propre pour tous vos besoins industriels.",
+    text: "Nos remplisseuses automatisées assurent avec précision le dosage de produits fluides ou pâteux dans des contenants rigides : pots, tubes, flacons ou bouteilles.\nLe choix de la technologie de remplissage dépend du produit, de la cadence et du format, garantissant une production efficace, précise et propre pour tous vos besoins industriels.",
   },
   {
     image: "trieur.png",
@@ -77,18 +77,18 @@ export default function Home() {
           </div>
           <div className="px-[1%]">
             <h1 className="m-0 px-[3%] py-[1%] text-left font-semibold leading-[1.1] text-black" style={{ fontSize: "calc(1.7em + 0.2vw)" }}>
-              Machines industrielles automatisées à Orléans.&nbsp;Solutions de conditionnement, tri et remplissage
+              Machines industrielles automatisées en France et en Europe.&nbsp;Solutions de conditionnement, de tri et de remplissage
             </h1>
             <article className="p-[3%] md:w-[83.333%]">
               <p>
-                PMA Concept conçoit, commercialise et intègre des machines industrielles automatisées en&nbsp;
+                PMA Concept commercialise et intègre des machines industrielles automatisées en&nbsp;
                 <br />
                 France et en Europe.
                 <br />
-                &nbsp;Avec plus de 20 ans d’expérience, notre équipe accompagne les entreprises industrielles dans la mise en place de lignes complètes de{" "}
-                <strong>conditionnement, remplissage et tri optique</strong>, tout en assurant la maintenance et le dépannage de vos équipements.
+                &nbsp;Avec plus de 35 ans d’expérience en milieu industriel difficile, notre équipe accompagne les entreprises industrielles dans la recherche de solutions et la mise en place de lignes complètes de{" "}
+                <strong>dosage, conditionnement et remplissage</strong>, tout en assurant la maintenance et le dépannage de vos équipements.
               </p>
-              <p>Nous garantissons des installations performantes, conformes aux normes techniques et parfaitement adaptées à vos besoins de production.</p>
+              <p>Nous garantissons des installations performantes, conformes aux normes techniques en vigueur et parfaitement adaptées à vos besoins de production.</p>
             </article>
             <div className="md:flex">
               <div className="px-[3%] py-[1%] md:w-1/3">

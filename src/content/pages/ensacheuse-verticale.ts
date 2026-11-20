@@ -6,10 +6,11 @@ export const ensacheuseVerticale: PageData = {
   description:
     "PMA Concept propose des ensacheuses verticales pour poudre, granulés et thé à Orléans. Achetez des machines personnalisables et certifiées CE.",
   hero: {
-    title: "Ensacheuses verticales à Orléans",
-    text: "PMA Concept vous propose sa gamme de matériel destinée à l’ensachage. Faire appel à nous signifie proximité, adaptabilité et réactivité. Le champ d’action et les technicités permettent de vous fournir des solutions de haut niveau dans le domaine du génie industriel, en répondant à vos besoins précis et en suggérant des solutions audacieuses pour optimiser vos lignes de production.",
+    title: "Ensacheuses verticales",
+    text: "PMA Concept vous propose sa gamme de matériel destinée à l’ensachage vertical. Faire appel à nous signifie proximité, adaptabilité et réactivité. Le champ d’action et les technicités permettent de vous fournir des solutions de haut niveau dans le domaine du génie industriel, en répondant à vos besoins précis et en suggérant des solutions audacieuses pour optimiser vos lignes de production.",
     cta: { label: "Demandez un devis", href: "/contact" },
-    image: "ensacheuses-verticales-a-la-rochelle.webp",
+    image: "ensacheuse-verticale-ligne-complete.webp",
+    alt: "Ligne d’ensachage verticale avec peseuse associative et convoyeurs",
   },
   blocks: [
     {
@@ -21,6 +22,23 @@ export const ensacheuseVerticale: PageData = {
     {
       type: "products",
       items: [
+        {
+          title: "Modèle JW-MC361005",
+          images: ["ensacheuse-verticale-jw-mc361005.webp"],
+          head: ["Caractéristiques", "Valeurs"],
+          rows: [
+            ["Type de produits", "Sachets (à soufflet, coussins ou 3-4 soudures)"],
+            ["Système de dosage", "Linéaire ou associatif, ajustable via écran tactile"],
+            ["Trémie", "10 litres"],
+            ["Plage de dosage", "0,2 à 15 kg (selon produit)"],
+            ["Précision de dosage", "± 0,2 g"],
+            ["Systèmes de soudure", "À chaud"],
+            ["Taille des sachets", "Largeur 35–300 mm / Longueur 40–600 mm"],
+            ["Cadence", "25 à 35 sachets/min"],
+            ["Pression", "5–6 bars"],
+            ["Alimentation", "230V – 50Hz"],
+          ],
+        },
         {
           title: "Modèle JX012-P",
           images: ["b1-ensacheuse-a-the-a-soudure-ultrason.png", "b2-sachets-de-the-en-fibre-de-mais.png"],

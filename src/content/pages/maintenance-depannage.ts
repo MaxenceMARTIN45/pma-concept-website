@@ -21,12 +21,12 @@ export const maintenanceDepannage: PageData = {
       type: "rows",
       items: [
         {
-          image: "controle-regulier-de-vos-equipements-industriels-a-la-rochelle.webp",
+          image: "reparation-dequipements-industriels-a-la-rochelle.webp",
           title: "Opérations de maintenance industrielle",
-          text: "Nous assurons le nettoyage des buses, le **remplacement des joints**, le contrôle des capteurs, la vérification des alimentations et des systèmes de dosage. Ce suivi périodique améliore la durée de vie de vos ensacheuses, doseuses, trieurs et remplisseuses, tout en garantissant un rendement constant.",
+          text: "Nous assurons le **remplacement des joints**, le contrôle des capteurs, la vérification des alimentations et des systèmes de dosage. Ce suivi périodique améliore la durée de vie de vos ensacheuses, doseuses, trieurs et remplisseuses, tout en garantissant un rendement constant.",
         },
         {
-          image: "reparation-dequipements-industriels-a-la-rochelle.webp",
+          image: "contrat-de-maintenance-industrielle.webp",
           title: "Contrat de maintenance industrielle",
           text: "Nos contrats permettent d’assurer un **suivi continu de votre parc de machines**. Ils incluent des visites programmées, un accès prioritaire au SAV et des conditions tarifaires préférentielles. Ce dispositif est conseillé pour les sites exploitant plusieurs lignes ou des équipements à cadence élevée.",
         },
